@@ -15,4 +15,16 @@ const monthlyRent = 2000;
 const monthlyIncome = annualIncome / MONTH_IN_YEAR;
 const monthlySaving = monthlyIncome - monthlyRent;
 console.log(`monthly income = ${monthlyIncome.toFixed(2)}`);
-const taxAnnual = 33;
+const annualTaxPercentage = 0.33;
+const annualTaxDollars = annualIncome * annualTaxPercentage;
+const annualIncomeWithTaxDeducted =
+  annualIncome - annualTaxPercentage * annualIncome;
+console.log(
+  `annual income with tax deducted = ${annualIncomeWithTaxDeducted.toFixed(2)}`
+);
+
+/*
+add tax percentage  = 33
+display income with tax deducted 
+display monthly Saving after tax deduction 
+*/

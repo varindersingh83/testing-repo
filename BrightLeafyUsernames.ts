@@ -22,7 +22,7 @@ const annualIncomeWithTaxDeducted =
 console.log(
   `annual income with tax deducted = ${annualIncomeWithTaxDeducted.toFixed(2)}`
 );
-
+// conditions are needed in java script 'a>b, a<b, a!=b, etc
 /*
 add tax percentage  = 33
 display income with tax deducted 
